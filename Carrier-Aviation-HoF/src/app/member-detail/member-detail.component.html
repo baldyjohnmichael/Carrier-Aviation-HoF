@@ -1,0 +1,12 @@
+<div id="outter-div">
+<div id="inner-div" *ngIf="member">
+    <h2>{{member.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{member.id}}</div>
+    <div>
+    <label>name:
+        <input [(ngModel)]="member.name" placeholder="name"/>
+    </label>
+    </div>
+    <button (click)="goBack()">Go Back</button>
+</div>
+</div>
