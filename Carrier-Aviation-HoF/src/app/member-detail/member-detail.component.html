@@ -2,6 +2,8 @@
 <div id="inner-div" *ngIf="member">
     <h2>{{member.name | uppercase}} Details</h2>
     <div><span>id: </span>{{member.id}}</div>
+    <div>{{ member.details }}</div>
+    <div><img [src]="member.pic"></div>
     <div>
     <label>name:
         <input [(ngModel)]="member.name" placeholder="name"/>
