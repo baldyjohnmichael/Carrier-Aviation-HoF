@@ -1,4 +1,4 @@
-<div id="outer-div">
+<!-- <div id="outer-div">
 <div id="inner-div">
 <h2>Members</h2>
 <ul class="members">
@@ -10,6 +10,18 @@
 </ul>
 
 </div>
+</div> -->
+
+<div class="hall">
+    <div class="member-preview" *ngFor="let member of members">
+        <a routerLink="/detail/{{ member.id }}">
+            <img [src]="member.pic">
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.dob }} - {{ member.dod }}</p>
+        </a>
+    </div>
+
+
 </div>
 <!-- <div *ngIf="selectedMember">
     <h2>{{selectedMember.name | uppercase}} Details</h2>

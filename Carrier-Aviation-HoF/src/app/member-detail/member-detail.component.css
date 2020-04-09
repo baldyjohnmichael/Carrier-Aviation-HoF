@@ -10,6 +10,7 @@
     background-color: #8ebf42
     }
 
+
     .member-detail-view {
         display: grid;
         /*   grid-template-rows: 2fr 1fr 1fr; */
@@ -19,6 +20,8 @@
         line-height: 15px;
         align-items: center;
         justify-items: center;
+        
+        
       }
       .member-detail-view > img {
         max-width: 260px;

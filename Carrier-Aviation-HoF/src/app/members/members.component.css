@@ -54,3 +54,41 @@
     padding: 3px;
     background-color: #8ebf42
     }
+.hall {
+  margin: 69px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  outline: 3px solid black;
+  background-color: #b0bec5;
+  justify-items: center;
+  align-items: center;
+  gap: 15px 10px;
+
+
+
+}
+.member-preview {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 0.5fr;
+  outline: 2px solid grey;
+  text-align: center;
+  height: 250px;
+  width: 150px;
+  background-color: #2a2830;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* align-items: center;
+  justify-items: center;
+  justify-self: center; */
+}
+.member-preview > a > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.hall > div {
+  outline: 1px dotted grey;
+}
