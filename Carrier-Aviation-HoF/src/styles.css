@@ -22,10 +22,13 @@ h1 {
     radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
     background-size: 110px 200px;
     background-repeat: repeat-x;  */
-    background-color: #2a2830;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png");
+    /* background-color: #2a2830;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png"); */
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  }
+    background-image: url("assets/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;

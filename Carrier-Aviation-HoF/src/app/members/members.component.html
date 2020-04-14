@@ -14,15 +14,18 @@
 
 <div class="hall">
     <div class="member-preview" *ngFor="let member of members">
+        <div  class="member-preview">
         <a routerLink="/detail/{{ member.id }}">
             <img [src]="member.pic">
             <h3>{{ member.name }}</h3>
             <p>{{ member.dob }} - {{ member.dod }}</p>
         </a>
     </div>
-
-
+    </div>
 </div>
+
+
+
 <!-- <div *ngIf="selectedMember">
     <h2>{{selectedMember.name | uppercase}} Details</h2>
     <div><span>id: </span>{{selectedMember.id}}</div>
