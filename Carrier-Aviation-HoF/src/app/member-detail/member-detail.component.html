@@ -13,14 +13,17 @@
 </div>
 </div> -->
 <button (click)="goBack()">Go Back</button>
-<div class="member-detail-view">
-    <img [src]="member.pic">
-    <h2 class="name">{{ member.name }}</h2>
-    <h4 class="rank">Rank</h4>
-    <p class="date">{{ member.dob }}-{{ member.dod }}</p>
-    <p class="details">
-        {{ member.details }}
-    </p>
-    <p class="electedToHoF">Elected to HoF in {{ member.elected }}</p>
-    <p class="sigal">≛</p>
-  </div>
+<div (click)="onClick()" class="outer-div">
+
+    <div id="member" class="member-detail-view">
+        <img [src]="member.pic">
+        <h2 class="name">{{ member.name }}</h2>
+        <h4 class="rank">Rank</h4>
+        <p class="date">{{ member.dob }}-{{ member.dod }}</p>
+        <p class="details">
+            {{ member.details }}
+        </p>
+        <p class="electedToHoF">Elected to HoF in {{ member.elected }}</p>
+        <p class="sigal">≛</p>
+    </div>
+</div>

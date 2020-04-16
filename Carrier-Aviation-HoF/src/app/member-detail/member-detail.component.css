@@ -2,7 +2,7 @@
         display: grid;
         /*   grid-template-rows: 2fr 1fr 1fr; */
         outline: 2px solid blue;
-        margin: 10px 600px 10px 600px;
+        margin: 0px 600px 0px 600px;
         text-align: center;
         line-height: 15px;
         align-items: center;
@@ -10,6 +10,9 @@
         background-color: #e5e4e6;
         
         
+      }
+      #member {
+        background-color: #e5e4e6;
       }
       .member-detail-view > img {
         max-width: 260px;
@@ -38,4 +41,7 @@
       }
       .sigal {
         font-size: 250%;
+      }
+      .outer-div {
+        outline: 2px solid red;
       }
