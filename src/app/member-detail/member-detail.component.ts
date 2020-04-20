@@ -32,14 +32,13 @@ export class MemberDetailComponent implements OnInit {
     this.location.back();
   }
   onClick(): void {
-    var target = event.target || event.srcElement || event.currentTarget;
-    if (document.getElementById("member").contains(target)){
+    // var target = event.target || event.srcElement || event.currentTarget;
+    // if (document.getElementById("member").contains(target)){
 
-    }
-    else {
-      this.goBack();
-      
-    }
+    // }
+    // else {
+    //   this.location.back();
+    // }
     
   }
 
