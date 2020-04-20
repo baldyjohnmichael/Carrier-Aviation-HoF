@@ -37,7 +37,8 @@ export class MemberDetailComponent implements OnInit {
 
     }
     else {
-      this.location.back();
+      this.goBack();
+      
     }
     
   }
