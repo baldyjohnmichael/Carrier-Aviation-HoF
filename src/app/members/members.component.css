@@ -1,0 +1,102 @@
+/* HeroesComponent's private CSS styles
+.members {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .members li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .members li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .members li.selected {
+    background-color: #CFD8DC;
+    color: white;
+  }
+  .members li.selected:hover {
+    background-color: #BBD8DC;
+    color: white;
+  }
+  .members .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  #outer-div {
+    width: 100%; 
+    text-align: center;
+    background-color: #0666a3 
+    }
+#inner-div {
+    display: inline-block; 
+    margin: 0 auto;
+    padding: 3px;
+    background-color: #8ebf42
+    } */
+.hall {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* outline: 3px solid black; */
+  /* background-color: #b0bec5; */
+  justify-items: center;
+  align-items: center;
+  gap: 15px 10px;
+
+
+
+}
+.member-preview {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 0.5fr;
+  outline: 2px solid grey;
+  text-align: center;
+  height: 200px;
+  width: 150px;
+  background-color: #e5e4e6;
+/* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-3.png"); */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /* align-items: center;
+  justify-items: center;
+  justify-self: center; */
+}
+
+.member-preview > a > h3 {
+  font-size: 15px;
+}
+
+.member-preview > a > p {
+  font-size: 12px;
+}
+.member-preview > a > img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.hall > div {
+  outline: 1px dotted grey;
+}
